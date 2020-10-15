@@ -7,3 +7,20 @@ https://www.google.com/search?rlz=1C1PNBB_enEG898EG899&sxsrf=ALeKk02jA9-eqSFqsoj
 
 
 https://blog.apify.com/unofficial-google-search-api-from-apify-22a20537a951
+
+```python
+from io import StringIO
+from email.generator import Generator
+fp = StringIO()
+g = Generator(fp, mangle_from_=True, maxheaderlen=60)
+g.flatten(msg)
+text = fp.getvalue()
+从Python 3.0开始，StringIO和cStringIO模块已经取消。通过import io模块代替，分别使用io.String或io.BytesIO处理文本和数据。从Python 3邮件流文档能看到相关实现StringIO的代码为：
+
+from io import StringIO
+from email.generator import Generator
+fp = StringIO()
+g = Generator(fp, mangle_from_=True, maxheaderlen=60)
+g.flatten(msg)
+text = fp.getvalue()
+```
