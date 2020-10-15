@@ -3,3 +3,7 @@ https://www.edureka.co/blog/web-scraping-with-python/
 
 
 https://www.google.com/search?rlz=1C1PNBB_enEG898EG899&sxsrf=ALeKk02jA9-eqSFqsojXNpM8plWWECMUUw%3A1602797275666&ei=276IX-OTKMuelwSK6JPIDw&q=can+i+scrape+through+google+search+results&oq=can+I+scrap+throgh+google+sea&gs_lcp=CgZwc3ktYWIQAxgAMgoIIRAWEAoQHRAeMgoIIRAWEAoQHRAeOgQIABBHOgQIIxAnOgcILhDJAxBDOgQILhBDOgUIABCRAjoFCAAQsQM6CwguELEDEMcBEKMCOggILhDJAxCRAjoCCC46CAguELEDEIMBOgIIADoKCC4QsQMQyQMQQzoICC4QsQMQkQI6DQguELEDEMcBEKMCEEM6BAgAEEM6BQguELEDOgUIABDJAzoECC4QCjoGCAAQFhAeOggIABAWEAoQHjoHCAAQyQMQDToECAAQDToJCAAQyQMQFhAeOgQIIRAKOgcIIRAKEKABUMo0WMN2YLJ9aAJwBHgAgAG9AYgBoCCSAQQwLjMxmAEAoAEBqgEHZ3dzLXdpesgBCMABAQ&sclient=psy-ab
+
+
+
+https://blog.apify.com/unofficial-google-search-api-from-apify-22a20537a951
