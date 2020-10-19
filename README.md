@@ -53,3 +53,15 @@ g = Generator(fp, mangle_from_=True, maxheaderlen=60)
 g.flatten(msg)
 text = fp.getvalue()
 ```
+```
+0
+
+I like the Dom Crawler library. Very easy to use, has lots of options like:
+
+$crawler = $crawler
+->filter('body > p')
+->reduce(function (Crawler $node, $i) {
+    // filters every other node
+    return ($i % 2) == 0;
+});
+```
