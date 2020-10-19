@@ -11,7 +11,18 @@ https://simplehtmldom.sourceforge.io/
 <img src='myfirst_scrap'>
 
 
+```
+<?php
+require 'simple_html_dom.php';
 
+$html = file_get_html('http://www.google.com/');
+$title = $html->find('a', 1); // any tag get it awesome
+$image = $html->find('img', 0);
+
+echo $title->plaintext."<br>\n";
+echo '<img src="https://www.google.com'.$image->src .'">';
+?>
+```
 
 
 
