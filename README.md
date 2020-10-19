@@ -7,6 +7,9 @@ https://www.edureka.co/blog/web-scraping-with-python/
 https://simplehtmldom.sourceforge.io/
 
 
+#first version scrap google image, and title
+<img src='myfirst_scrap'>
+
 
 
 
