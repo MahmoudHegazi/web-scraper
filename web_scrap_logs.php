@@ -19,4 +19,8 @@ echo $image->src;
 echo '<br><br><br><br><hr><h2>Web Scrap SOUQ Image<h2><img src="'.$udacity_image->src .'">';
 echo '<br><br><br><br><hr><h2>Web Scrap FreeLancer Image<h2><img src="'.$image->src .'">';
 echo '<br><br><br><br><hr><h2>Web Scrap Google Image<h2><img src="https://www.google.com'.$image_google->src .'">';
+
+// Find all images
+foreach($udacity_url->find('img') as $element)
+       echo '<img src="'. $element->src . '"><br>';
 ?>
