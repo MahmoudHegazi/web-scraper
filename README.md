@@ -65,3 +65,4 @@ $crawler = $crawler
     return ($i % 2) == 0;
 });
 ```
+https://lightsail.aws.amazon.com/ls/docs/en_us/articles/migrate-your-wordpress-blog-to-amazon-lightsail
