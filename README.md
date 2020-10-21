@@ -3,7 +3,7 @@ https://www.edureka.co/blog/web-scraping-with-python/
 https://stackoverflow.com/questions/59130672/how-to-scrape-pdfs-using-python-specific-content-only
 
 https://www.google.com/robots.txt
-
+http://www.robotstxt.org/robotstxt.html
 # PHP
 https://simplehtmldom.sourceforge.io/
 
