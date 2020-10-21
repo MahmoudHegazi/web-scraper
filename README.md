@@ -1,6 +1,6 @@
 # web-scraper
 https://www.edureka.co/blog/web-scraping-with-python/
-
+https://stackoverflow.com/questions/59130672/how-to-scrape-pdfs-using-python-specific-content-only
 
 
 # PHP
