@@ -4,6 +4,10 @@ https://stackoverflow.com/questions/59130672/how-to-scrape-pdfs-using-python-spe
 
 https://www.google.com/robots.txt
 http://www.robotstxt.org/robotstxt.html
+
+#task one 
+scrap this one, update changes with ajax if not updated
+
 # PHP
 https://simplehtmldom.sourceforge.io/
 
