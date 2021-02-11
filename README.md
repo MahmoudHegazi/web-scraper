@@ -90,7 +90,7 @@ document.body.style.height = '2000px';
 const n = ()=> {
 setTimeout(function(){
 console.log(document.body.scrollHeight);
-window.scrollTo(0, y);
+window.scrollTo(0, document.body.scrollHeight);
 }, 4000);
 
 
