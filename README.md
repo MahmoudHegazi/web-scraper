@@ -78,7 +78,9 @@ https://lightsail.aws.amazon.com/ls/docs/en_us/articles/migrate-your-wordpress-b
 https://selenium-python.readthedocs.io/api.html
 
 
-### scroller robot
+### scroller robot js
+
+
 
 ```
 const x = ()=> {
@@ -99,3 +101,5 @@ x();
 n();
 
 ```
+### to excute js in python with selnuim 
+ driver.execute_script
