@@ -76,3 +76,26 @@ https://lightsail.aws.amazon.com/ls/docs/en_us/articles/migrate-your-wordpress-b
 
 
 https://selenium-python.readthedocs.io/api.html
+
+
+### scroller robot
+
+```
+const x = ()=> {
+setTimeout(function(){
+document.body.style.height = '2000px';
+}, 3000);
+}
+
+const n = ()=> {
+setTimeout(function(){
+console.log(document.body.scrollHeight);
+window.scrollTo(0, y);
+}, 4000);
+
+
+}
+x();
+n();
+
+```
