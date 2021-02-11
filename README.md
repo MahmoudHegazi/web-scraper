@@ -103,3 +103,26 @@ n();
 ```
 ### to excute js in python with selnuim 
  driver.execute_script
+ 
+ 
+### dynamic error handle
+
+```
+proxy_list = ['1','2','3','4','5','6']
+erro_counter = 0
+proxy = ''
+proxys = []
+mbool = True
+while mbool:
+    try:
+        proxy = proxy_list[erro_counter]
+        print(proxys[0])
+        print(proxy)
+        mbool = False
+    except IndexError:
+        erro_counter += 1
+        proxy = proxy_list[erro_counter]
+        proxys.append('handling')
+        print('error')
+        mbool = True
+```
