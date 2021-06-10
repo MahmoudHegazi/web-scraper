@@ -126,3 +126,20 @@ while mbool:
         print('error')
         mbool = True
 ```
+
+
+### js Mouseover Action
+
+```
+var element = document.querySelector('.top-nav-item.wt-pb-xs-2.wt-mr-xs-2.wt-display-flex-xs.wt-align-items-center');
+element.addEventListener('mouseover', function() {
+  console.log('Event triggered');
+});
+
+var event = new MouseEvent('mouseover', {
+  'view': window,
+  'bubbles': true,
+  'cancelable': true
+});
+
+```
