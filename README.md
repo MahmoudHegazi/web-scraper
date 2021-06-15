@@ -143,3 +143,33 @@ var event = new MouseEvent('mouseover', {
 });
 
 ```
+
+## new split for numbers
+```
+priceString = "Rs249.5"
+
+def advancedSplit(unformatedtext):
+    custom_numbers = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"]
+    priceList = []
+    str_length = len(unformatedtext)
+    index = 0
+    for l in range(len(unformatedtext)):
+        if unformatedtext[l] in custom_numbers:
+            price = unformatedtext[slice(l, len(unformatedtext))]
+            currency = unformatedtext[slice(0,l)]
+            if currency == "Rs" or currency == "RS":
+                currency = "INR"
+             
+            priceList.append(price)
+            break
+        elif index == str_length:
+            priceList.append("")
+            priceList.append("unformatedtext")
+            break
+        else:
+            continue
+            
+        index += 1
+    return priceList
+print(advancedSplit(priceString))
+```
