@@ -14,6 +14,9 @@ scrap this one, update changes with ajax if not updated
 https://simplehtmldom.sourceforge.io/
 
 
+# create new local copy from web page html content text into your pc using  curl
+ ```curl -o curl_test.txt https://www.google.com```
+ 
 #first version scrap google image, and title
 <img src='top_scrap.PNG'>
 
