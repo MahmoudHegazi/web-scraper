@@ -15,7 +15,7 @@ https://simplehtmldom.sourceforge.io/
 
 
 # create new local copy from web page html content text into your pc using  curl
- ```bash curl -o curl_test.txt https://www.google.com```
+ ```curl -o curl_test.txt https://www.google.com```
  
 #first version scrap google image, and title
 <img src='top_scrap.PNG'>
