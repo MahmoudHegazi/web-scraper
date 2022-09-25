@@ -10,7 +10,11 @@ https://librarycarpentry.org/lc-webscraping/setup
 #task one 
 scrap this one, update changes with ajax if not updated
 
-
+# selenum by
+```python
+ Set of supported locator strategies.\n    ', 'ID': 'id', 'XPATH': 'xpath', 'LINK_TEXT': 'link text', 'PARTIAL_LINK_TEXT': 'partial link text', 'NAME': 'name', 'TAG_NAME': 'tag name', 'CLASS_NAME': 'class name', 'CSS_SELECTOR': 'css selector', '__dict__': <attribute '__dict__' of 'By' objects>, '__weakref__': <attribute '__weakref
+ 
+ ```
 # get any element contains text js
 ```javascript
 const getElementByText = (text, possibleElms=['div', 'span', 'h5', 'h4', 'button', 'p','h6'])=>{
