@@ -10,6 +10,41 @@ https://librarycarpentry.org/lc-webscraping/setup
 #task one 
 scrap this one, update changes with ajax if not updated
 
+
+# get any element contains text js
+```javascript
+const getElementByText = (text, possibleElms=['div', 'span', 'h5', 'h4', 'button', 'p','h6'])=>{
+    const elementsToSearch = [];
+    const resultElements = [];
+    possibleElms.forEach( (elmType)=>{
+        const SearchElements = document.querySelectorAll(elmType);
+        if (SearchElements.length){
+          SearchElements.forEach( (SearchElement)=>{
+           if (!elementsToSearch.includes(SearchElement)){
+              elementsToSearch.push(SearchElement);
+            }
+          })
+        }
+    });
+    console.log(elementsToSearch);
+    const searchText = text.toLowerCase().trim();
+    
+    elementsToSearch.forEach( (elm)=>{
+        const ElmTxt = elm.innerText.toLowerCase().trim();
+        if (ElmTxt == searchText){
+            if (!resultElements.includes(ElmTxt)){
+                resultElements.push(elm);
+            }
+        }
+        
+    });
+    return resultElements;
+    
+}
+undefined
+let maybe = getElementByText('Sign in');
+
+```
 # PHP
 https://simplehtmldom.sourceforge.io/
 
